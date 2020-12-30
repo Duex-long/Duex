@@ -10,8 +10,24 @@ const router= new VueRouter({
      {
        path:'/home',
        component:()=>
-          import ("@/components/Home")
-     }
+          import ("@/components/Home"),
+          children:[
+            {
+              path:'/welcome',
+              component:()=> import ("@/components/Welcome")
+            },
+            {
+              path:'/users',
+              component: ()=> import("@/components/user/Users")
+            },
+            {
+              path:'/rights',
+              component:()=> import ("@/components/power/Rights")
+            }
+          ]
+     },
+    
+     
   ],
 })
 // 挂载路由导航守卫
