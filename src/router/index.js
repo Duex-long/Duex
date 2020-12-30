@@ -19,6 +19,10 @@ const router= new VueRouter({
             {
               path:'/users',
               component: ()=> import("@/components/user/Users")
+            },
+            {
+              path:'/rights',
+              component:()=> import ("@/components/power/Rights")
             }
           ]
      },
