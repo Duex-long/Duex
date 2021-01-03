@@ -23,6 +23,10 @@ const router= new VueRouter({
             {
               path:'/rights',
               component:()=> import ("@/components/power/Rights")
+            },
+            {
+              path:'/roles',
+              component:()=> import ("@/components/power/Roles")
             }
           ]
      },
