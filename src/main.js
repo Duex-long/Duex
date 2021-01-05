@@ -12,9 +12,9 @@ Vue.prototype.$http = axios
 // 配置请求根路径
 
 // 可用API
-    axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/' 
-    // axios.defaults.baseURL = 'http://www.ysqorz.top:8888/api/private/v1/'
-    // axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/ '
+    // axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/' 
+    axios.defaults.baseURL = 'http://www.ysqorz.top:8888/api/private/v1/'
+    // axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/ ' 失效
 
 axios.interceptors.request.use(config=>{
   // console.log(config) 

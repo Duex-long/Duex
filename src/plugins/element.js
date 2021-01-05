@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-import {Cascader,Option,Select,Tree,Tag,MessageBox,Dialog, Pagination,Tooltip,Table,TableColumn,Switch,Row,Col,Card, Breadcrumb,BreadcrumbItem, Button,Form,FormItem,Input,Icon,Message,Container,Header,Aside,Main,Menu,Submenu,MenuItem} from 'element-ui'
+import {Tabs,TabPane,Alert,Cascader,Option,Select,Tree,Tag,MessageBox,Dialog, Pagination,Tooltip,Table,TableColumn,Switch,Row,Col,Card, Breadcrumb,BreadcrumbItem, Button,Form,FormItem,Input,Icon,Message,Container,Header,Aside,Main,Menu,Submenu,MenuItem} from 'element-ui'
 
 
 Vue.use(Button);
@@ -35,6 +35,9 @@ Vue.use(Tree);
 Vue.use(Select);
 Vue.use(Option);
 Vue.use(Cascader);
+Vue.use(Alert);
+Vue.use(Tabs);
+Vue.use(TabPane);
 
 // 挂载到原型对象 可以用this访问$message进行弹框提示
 Vue.prototype.$message = Message
