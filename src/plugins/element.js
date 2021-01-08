@@ -1,7 +1,9 @@
 import Vue from 'vue'
-
-import {Upload,CheckboxGroup,CheckboxButton,Checkbox,Steps,Tabs,TabPane,Alert,Cascader,Option,Select,Tree,Tag,MessageBox,Dialog, Pagination,Tooltip,Table,TableColumn,Switch,Row,Col,Card, Breadcrumb,BreadcrumbItem, Button,Form,FormItem,Input,Icon,Message,Container,Header,Aside,Main,Menu,Submenu,MenuItem, Step} from 'element-ui'
-
+// import Timeline from './timeline/index.js'
+// import TimelineItem from './timeline-item/index.js'
+import {Timeline,TimelineItem,Upload,CheckboxGroup,CheckboxButton,Checkbox,Steps,Tabs,TabPane,Alert,Cascader,Option,Select,Tree,Tag,MessageBox,Dialog, Pagination,Tooltip,Table,TableColumn,Switch,Row,Col,Card, Breadcrumb,BreadcrumbItem, Button,Form,FormItem,Input,Icon,Message,Container,Header,Aside,Main,Menu,Submenu,MenuItem, Step} from 'element-ui'
+Vue.use(Timeline);
+Vue.use(TimelineItem);  
 Vue.use(Upload);
 Vue.use(Button);
 Vue.use(Form);

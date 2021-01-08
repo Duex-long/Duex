@@ -210,8 +210,8 @@
                 // 将图片信息对象push进数组里
                 this.addForm.pics.push(picInfo)
             },
-             add(){
-                this.$refs.addFormRef.validate(async valid=>{
+            add(){
+                    this.$refs.addFormRef.validate(async valid=>{
                     if(!valid){return this.$message.error("请填写必要的表单项!")}
                     // 执行添加逻辑
                     // lodash cloneDeep(obj)
